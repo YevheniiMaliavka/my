@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { render } from 'react-dom';
+import { App } from './app';
 
-const Hello: React.SFC<{}> = () => <h1>Hello, Yevhenii!</h1>;
-
-render(<Hello />, document.getElementById('app'));
+render(<App />, document.getElementById('app'));
